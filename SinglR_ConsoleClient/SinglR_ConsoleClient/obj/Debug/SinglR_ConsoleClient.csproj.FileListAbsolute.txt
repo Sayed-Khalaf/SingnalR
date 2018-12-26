@@ -1,0 +1,12 @@
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\SinglR_ConsoleClient.exe.config
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\SinglR_ConsoleClient.exe
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\SinglR_ConsoleClient.pdb
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\obj\Debug\SinglR_ConsoleClient.csprojResolveAssemblyReference.cache
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\obj\Debug\SinglR_ConsoleClient.csproj.CoreCompileInputs.cache
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\obj\Debug\SinglR_ConsoleClient.exe
+F:\SourceCode\SignalR\SinglR_ConsoleClient\SinglR_ConsoleClient\obj\Debug\SinglR_ConsoleClient.pdb

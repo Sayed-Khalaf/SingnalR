@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<input type="text" id="msgTxtBox" />
+<input type="button" id="sendBtn" value="Send" />
+
+<ul id="messagesList">
+
+</ul>
+
+
+@section scripts{
+    <script src="~/Scripts/jquery.signalR-2.4.0.js"></script>
+    <script src="~/SignalR/hubs"></script>
+
+    <script>
+        (function () {
+            // Defining a connection to the server hub.
+            var myHub = $.connection.chatHub;
+
+            // Start the hub
+            $.connection.hub.start();
+
+            // This is the client method which is being called inside the ChatHub 
+            myHub.client.RecieveServerMesssage = function (message) {
+                // Set the received serverTime in the span to show in browser
+                $("#messagesList").append('<li>' + message + '</li>');
+            };
+            
+            //Button click jquery handler
+            $("#sendBtn").click(function () {
+                // Call SignalR hub method
+                myHub.server.send($("#msgTxtBox").val());
+            });
+        }()); 
+    </script>
+}
